@@ -13,8 +13,12 @@ body {
   font-family: "Roboto", sans-serif, "Raleway", sans-serif;
   color: var(--color-main);
 }
+
 .list {
+  display: flex;
+  justify-content: center;
   list-style: none;
+  padding: auto;
 }
 .pictures-project {
   border: 1px solid #eeeeee;
@@ -76,6 +80,7 @@ body {
 }
 
 .navigation {
+  padding-right: 46px;
   letter-spacing: 0.02em;
   color: var(--color-main);
   line-height: 1.172;
@@ -110,6 +115,7 @@ body {
   text-decoration: none;
   font-size: 14px;
   color: var(--color-description);
+  padding-left: 50px;
 }
 .contact-footer {
   letter-spacing: 0.03em;
@@ -119,6 +125,12 @@ body {
   text-decoration: none;
 }
 .menu {
+  padding-top: 32px;
+  padding-bottom: 32px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
   border: 1px solid #ececec;
 }
 .article {
@@ -176,4 +188,11 @@ body {
   line-height: 2;
   font-size: 18px;
   font-weight: 700;
+}
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+.list-footer {
+  list-style: none;
 }
