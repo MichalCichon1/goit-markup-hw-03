@@ -12,6 +12,7 @@ body {
   font-weight: 400;
   font-family: "Roboto", sans-serif, "Raleway", sans-serif;
   color: var(--color-main);
+  margin: 0 auto;
 }
 ul {
   margin: 0 auto;
@@ -29,8 +30,8 @@ ul {
   border-bottom: 1px solid #ececec;
 }
 .menu {
-  padding-top: 32px;
-  padding-bottom: 32px;
+  padding-top: 26px;
+  padding-bottom: 24px;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -85,6 +86,8 @@ ul {
   color: var(--color-description);
 }
 .background-two {
+  padding-top: 59px;
+  padding-bottom: 59px;
   color: var(--color-text);
   background-color: var(--background-two);
 }
@@ -302,14 +305,25 @@ ul {
 }
 
 .description-project {
+  padding-left: 24px;
   line-height: 1.875;
   font-size: 16px;
   color: var(--color-description);
   letter-spacing: 0.03em;
   line-height: 1.875;
 }
+.menu-portfolio {
+  padding-top: 26px;
+  padding-bottom: 24px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  max-width: 1170px;
+  margin: 0 auto;
+}
 
 .project-name {
+  padding-left: 24px;
   letter-spacing: 0.06em;
   line-height: 2;
   font-size: 18px;
