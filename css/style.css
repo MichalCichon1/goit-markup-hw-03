@@ -26,6 +26,11 @@ ul {
   padding-top: 94px;
   padding-bottom: 94px;
 }
+.positioning {
+  max-width: 1170px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
 .border-header {
   border-bottom: 1px solid #ececec;
 }
@@ -183,9 +188,6 @@ ul {
   display: flex;
   justify-content: center;
   list-style: none;
-  max-width: 1170px;
-  padding: 0 15px;
-  margin: 0 auto;
   gap: 30px;
 }
 .pictures-team {
@@ -288,9 +290,6 @@ ul {
 }
 .list-project {
   list-style: none;
-  max-width: 1170px;
-  padding: 0 15px;
-  margin: 0 auto;
   gap: 30px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -311,6 +310,7 @@ ul {
   color: var(--color-description);
   letter-spacing: 0.03em;
   line-height: 1.875;
+  padding-bottom: 20px;
 }
 .menu-portfolio {
   padding-top: 26px;
@@ -318,8 +318,6 @@ ul {
   display: flex;
   flex-direction: row;
   align-items: center;
-  max-width: 1170px;
-  margin: 0 auto;
 }
 
 .project-name {
@@ -328,4 +326,6 @@ ul {
   line-height: 2;
   font-size: 18px;
   font-weight: 700;
+  padding-bottom: 4px;
+  padding-top: 20px;
 }
